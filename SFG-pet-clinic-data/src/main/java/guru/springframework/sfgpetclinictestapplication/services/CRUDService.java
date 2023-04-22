@@ -2,7 +2,7 @@ package guru.springframework.sfgpetclinictestapplication.services;
 
 import java.util.Set;
 
-public interface CRUDService<T, ID>{
+public interface CRUDService<T, ID> {
     Set<T> findAll();
 
     T findById(ID id);
