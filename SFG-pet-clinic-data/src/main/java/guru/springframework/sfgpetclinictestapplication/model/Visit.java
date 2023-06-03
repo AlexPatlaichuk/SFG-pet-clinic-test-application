@@ -1,6 +1,6 @@
 package guru.springframework.sfgpetclinictestapplication.model;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.*;
 
 import java.time.LocalDate;
